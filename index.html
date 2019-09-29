@@ -8,6 +8,7 @@
     <script type="text/javascript" src="js/array.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="wrapper">
@@ -15,10 +16,13 @@
         <div class="content">
             <h2>Welcome to isCurlyGirl? App!</h2>
             <p>Here you can type the ingredient from the product you'd like to buy. </p>
-            <div class="search"><p>Search for ingredient:</p>
-            
-            </div>
-            
+            <p>Search for ingredient:</p>
+                <div class="search">   
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
         </div>
         
     </div>
